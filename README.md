@@ -1,6 +1,6 @@
-# Hide Facebook Reels Chrome Extension
+# Hide Facebook Reels  Extension
 
-A simple Chrome extension that automatically hides **Facebook Reels** and short videos from your feed.
+A simple extension that automatically hides **Facebook Reels** and short videos from your feed.
 
 ## 🔍 Why Use This?
 
@@ -11,6 +11,7 @@ Facebook Reels are designed to grab your attention and keep you scrolling. If yo
 - Automatically removes Reels from Facebook
 - Lightweight and privacy-friendly (no data collection)
 - Easy to install and use — no configuration needed
+- Supported Browser : Chrome , Edge
 
 ## 📦 Installation
 
