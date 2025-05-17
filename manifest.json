@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Hide Facebook Reels",
+  "version": "1.0",
+  "description": "This extension hides Facebook Reels from your feed.",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["*://*.facebook.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
